@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Verificar Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- se añadió bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:#99260E;">
+            <!-- Brand/logo -->
+            <div id="header_left">
+                <a class="navbar-brand" href="#">
+                    <img src="img/DPS.png" alt=""/>
+                </a>
+            </div>
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">INICIO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        SERVICIO
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        CONSULTA
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </li>
+            </ul>
+
+
+
+
+
+
+            <div id="usuario">
+                <a class="navbar-brand" href="#">
+                    <label>Bienvenido</label>
+                    <br>
+                    <label>Lic.Jose</label>
+                </a>
+            </div>
+            <div id="header_right">
+                <a class="navbar-brand" href="inicio.jsp">
+                    <img src="img/IMG PERFIL.jpg" alt=""/>
+                </a>
+            </div>
+
+        </nav>
+
+
+        <!--BARRA DE NAVEGACION-->
+
+        <!--BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Demanda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Promovente.html">Promovente</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Demandado.html">Demandado</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="VerificarDatos.html">Verificar Datos</a>
+                </li>
+            </ul>
+        </nav>
+        
+        
+          <!--budgetts---->
+        <div class="container">
+            <span class="badge badge-pill badge-danger">Demandada*</span>
+        </div>
+          
+        <div class="container">                                                                                     
+            <div class="table-responsive">          
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Fecha de Ingreso:</th>
+                            <th>Tipo de Juicio:</th>
+                            <th>Juzgado:</th>
+                            <th>C.I.:</th>
+                            <th>Pruebas Ofrecidas:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>03/03/2023</td>
+                            <td>Sucesorio Intestamentario</td>
+                            <td>Primero FAMILIAR</td>
+                            <td>257/2018</td>
+                            <td>DOCUMENTALES</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br>
+        
+        <!---------------------------------------------------------->
+        
+          <!--budgetts---->
+        <div class="container">
+            <span class="badge badge-pill badge-danger">Promovente(s)*</span>
+        </div>
+         <div class="container">                                                                                     
+            <div class="table-responsive">          
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre:</th>
+                            <th>Edad:</th>
+                            <th>Sexo:</th>
+                            <th>Escolaridad:</th>
+                            <th>Ocupacion:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Hector Felipe Perez Lopez</td>
+                            <td>36</td>
+                            <td>Hombre</td>
+                            <td>Secundaria</td>
+                            <td>Empleado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div
+        <br>
+        <br>
+        <br>
+        <br>
+        
+         <!---------------------------------------------------------->
+        
+        
+          <!--budgetts---->
+        <div class="container">
+            <span class="badge badge-pill badge-danger">Demandado*</span>
+        </div>
+         
+         <div class="container">                                                                                     
+            <div class="table-responsive">          
+                <table class="table">
+                    <thead>
+                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>NO PROPORCIONADO</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <button type="button" class="btn btn-primary">REGISTRAR</button>    
+        </div>
+
+        <div class="container-fluid">
+
+
+        </div>
+    </body>
+</html>
+
